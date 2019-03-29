@@ -1,0 +1,101 @@
+.model-name{
+    border-bottom: solid 1px grey;
+}
+        /*HEADER*/
+header{
+    /*margin: 0px 20px;*/
+    display: flex;
+    justify-content: space-between;
+    font-size: 13.42pt;
+    color: #717171;
+
+}
+
+        /*MAIN*/
+
+main{
+    /*margin: 0px 20px;*/
+    border: solid 1px #a1a1a1;
+    padding: 0px 80px;
+}
+
+        /*FOOTER*/
+
+footer{
+
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+#article-number{
+    color: black}
+
+h1{
+    color: #3583b0;
+    font-weight: Bold;
+    font-size: 50.00pt;
+    border-bottom: solid 1px #3583b0;
+    margin: 30px auto 30px 0px;
+}
+h2{
+    border-bottom: solid 1px #a0a0a0;
+    /*font-size: 9.45pt;*/
+    font-weight: bold;
+}
+h3{
+    border-bottom: solid 1px #9f9f9f;
+    /*font-size: 7.87pt;*/
+    font-weight: bold;
+}
+ul {
+    padding: 0; /* Убираем поля */
+    margin-left: 20px; /* Отступ слева */
+}
+.container{
+    display: flex;
+}
+.sliders{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.characteristics{
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    margin-left: 30px;
+}
+
+        /*OTHER*/
+
+div{
+    /*border: solid 5px #ff6100;*/
+    /*margin: 10px;*/
+    /*padding: 10px;*/
+}
+body{
+    padding: 0px 20px;
+    font-family: Arial;
+    font-size: 10pt;
+
+
+}
+.sale{
+        /*CIRCLE*/
+    height: 150px;
+    width: 150px;
+    background: rgba(255, 0, 0, 0.36);
+    border-radius: 50%;
+        /*CONTENT*/
+    display: flex;
+    align-items: center;
+        /*POSITION*/
+    position: absolute;
+    left: 30px;
+    top: 120px;
+        /*FONT*/
+    text-align: center;
+    font-size: 25pt;
+    color: #FFFFFF;
+    font-weight: bold;
+}
