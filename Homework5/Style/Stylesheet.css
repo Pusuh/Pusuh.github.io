@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+header{
+    background-image: url(images/2DArts_@aniartss_02139.png);
+    background-size: 150%;
+    background-position-x: center;
+    /*height: 400px;*/
+    font-family: roboto black, serif;
+}
+main{
+
+}
+footer{
+
+}
+
+.overlay{
+    padding: 0 20%;
+    /*height: auto;*/
+    width: auto;
+    background: linear-gradient(to right, rgba(51, 0, 51, 0.7), rgba(102, 51, 51, 0.7));
+}
+.verticalPadding{
+    padding: 70px 0;
+}
+.whiteBlock{
+
+}
+.header__overlay{
+    
+}
+
+.header__navigationBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    color: #ff6633;
+    font-family: ft40, serif;
+    font-size: 20px;
+}
+.header__logoName{
+
+}
+
+.header__navigation{
+    display: inline-block;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+
+.header__navigationButton {
+    padding: 10px 10px;
+    color: #FFFFFF;
+    height: 20px;
+    border: solid 2px rgba(255, 102, 51, 0);
+    border-radius: 5px;
+    /*display: flex;*/
+    display: inline-block;
+    align-items: center;
+    transition: top, border, 0.25s;
+    position: relative;
+    top: 0;
+}
+.header__navigationButton__HOME{
+    color: #ff6633;
+}
+.header__navigationButton:hover{
+    border: solid 2px #ffffff;
+    top: 10px;
+    transition: top, border, 0.5s;
+}
+.header__navigationButton__HOME:hover{
+    border: solid 2px #ff6633;
+}
+
+.header__text{
+    padding: 100px 0;
+}
+.header__mainTitle{
+    font-family: Playfair Display black, serif;
+    text-align: center;
+    color: white;
+    /*font-size: 20px;*/
+}
+.header__separator{
+    width: 100px;
+    background: #ff6633;
+    border: solid 1px rgb(255, 97, 0);
+}
+.header__mainText{
+    font-family: roboto light, serif;
+    color: white;
+    text-align: center;
+}
+.header__mainButton{
+    padding: 10px 10px;
+    color: #ff6633;
+    border: solid 2px #ff6633;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100px;
+    transition: background-color 0.25s  ;
+}
+.header__mainButton:hover{
+    border: solid 2px #ff6633;
+    background: rgba(255, 102, 51, 0.51);
+    transition: background-color 0.5s;
+}
